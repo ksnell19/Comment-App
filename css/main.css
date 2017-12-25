@@ -1,0 +1,37 @@
+#body {
+  background-color: #dde5ec;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px dotted white;
+}
+
+.myForm {
+  padding-top: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: lightgrey;
+  border-style: outset;
+}
+
+h5, p {
+  text-align: center;
+}
+
+#username {
+  width: 30%;
+  display: block;
+  margin-left: 35%;
+}
+
+#comment {
+  width: 30%;
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 10px;
+}
