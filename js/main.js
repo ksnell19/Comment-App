@@ -21,3 +21,11 @@ function getInfo(){
 
   document.body.appendChild(newDiv);
 };
+
+//Delete button. Is this working correctly?
+var input= document.getElementById("username")[0];
+
+function deleteInfo(){
+  console.log(input.value);
+  input.value= "";
+};
