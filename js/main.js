@@ -22,10 +22,10 @@ function getInfo(){
   document.body.appendChild(newDiv);
 };
 
-//Delete button. Is this working correctly?
-var input= document.getElementById("username")[0];
-
+//Delete button. Is this function working correctly? Do I have to list both variable inputs to delete each?
 function deleteInfo(){
-  console.log(input.value);
-  input.value= "";
+  console.log(userInfo.value);
+  userInfo.value= "";
+  console.log(commentInfo.value);
+  commentInfo.value= "";
 };
