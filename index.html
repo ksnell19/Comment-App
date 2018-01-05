@@ -15,13 +15,14 @@
     <h1>Comment App</h1>
 
     <form class="myForm">
-      <input type="text" Id="username" placeholder="Username">
-      <textarea Id="comment" placeholder="Comment"></textarea>
+      <input type="text" id="username" placeholder="Username">
+      <textarea id="comment" placeholder="Comment"></textarea>
       <button type= "button" onclick="getInfo()">Submit</button>
-      <button type= "button2" onclick="deleteInfo()">Delete</button>
+      <button type= "button" onclick="clearInfo()">Clear</button>
     </form>
 
-
+    <div id="comments">
+    </div>
 
     <!--JavaScript -->
     <script src="js/main.js">
