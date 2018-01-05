@@ -1,5 +1,5 @@
 #body {
-  background-color: #dde5ec;
+  background-color: #93A9B8;
   margin: 0 auto;
 }
 
@@ -15,8 +15,12 @@ h1 {
 }
 
 button {
-  background-color: lightgrey;
+  background-color: #cbcbcb;
   border-style: outset;
+}
+
+button:hover {
+  opacity: 0.75;
 }
 
 h5, p {

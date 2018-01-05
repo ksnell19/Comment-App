@@ -12,9 +12,9 @@ var commentsDiv = document.getElementById('comments');
 //create function for the button
 function getInfo(){
   // *if/else for the submit button until there is user text input. Why not working?*
-  // if(userInfo.value == '' || commentInfo.value == ''){
-  //   return;
-  // }else {
+  if(userInfo.value == '' || commentInfo.value == ''){
+    return;
+  }
   var newDiv= document.createElement('div');
   var newH5 = document.createElement('h5');
   var newP= document.createElement('p');
