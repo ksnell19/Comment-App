@@ -43,3 +43,16 @@ h5 {
   margin-left: 35%;
   margin-bottom: 10px;
 }
+
+
+@media only screen and (max-width: 768px) {
+  #username {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #comment {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
